@@ -39,6 +39,7 @@ genfscon proc /shell-temp    u:object_r:vendor_proc_oplus_touch:s0
 
 # Vibrator
 genfscon sysfs /devices/platform/11282000.i2c/i2c-12/12-005a/leds/vibrator    u:object_r:sysfs_vibrator:s0
+genfscon sysfs /devices/platform/soc/11d04000.i2c/i2c-7/7-005a/leds/vibrator    u:object_r:sysfs_vibrator:s0
 
 # Wakeup
 genfscon sysfs /devices/platform/10001000.consys/wakeup                                                                                   u:object_r:sysfs_wakeup:s0
@@ -77,3 +78,4 @@ genfscon sysfs /devices/platform/odm/odm:oplus,track-charge/track/wakeup        
 genfscon sysfs /devices/platform/soc/11211000.usb1/wakeup                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1e000000.adspsys/wakeup                                                                              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/power_supply/mtk-gauge/wakeup50                                                                           u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/power_supply/mtk-gauge/wakeup52                                                                           u:object_r:sysfs_wakeup:s0
